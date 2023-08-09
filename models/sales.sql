@@ -2,7 +2,7 @@
 
 WITH 
 
-  sales AS (SELECT * FROM `gz_raw_data.raw_gz_sales`)
+  sales AS (SELECT * FROM `gz_raw_data.raw_gz_Sales`)
 
   ,product AS (SELECT * FROM `gz_raw_data.raw_gz_product`)
 
